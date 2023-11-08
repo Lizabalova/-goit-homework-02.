@@ -1,7 +1,7 @@
 .body {
     font-family: "Roboto", sans-serif;
-    color:#2E2F42;
-    background-color: #fff;
+    color:#434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -19,9 +19,10 @@ button{
 
 .logo{
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -39,27 +40,37 @@ button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.54px;
-    gap: 40px;
-    align-items: flex-start;
+    letter-spacing: 0.02em;
     display: inline-flex;
+}
+
+.navigation-link:hover{
+ color: #404BBF;
+}
+.navigation-link: :focus{
+    color: #404BBF;
 }
 
 .contacts-link{
     color: #434455;
     line-height: 24px;
-    text-decoration: none;
-    font-style: normal;
-    
+    text-decoration: none; 
+    letter-spacing: 0.02em;
 }
-
-.navigation-link:hover
-.navigation-link:focus{
+.adress-link{
+    font-style: normal;
+}
+.contacts-link:hover{
     color: #404BBF;
 }
+.contacts-link:focus{
+    color: #404BBF;
+}
+
 .navigation-link:active{
     color: #404BBF;
 }
+
 
 .dark-bg{
     color: #2E2F42;
@@ -70,8 +81,8 @@ button{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    align-content: center;
+    line-height: 1.07;
+    text-align: center;
     background-color: #2E2F42;
     text-transform: capitalize;
     letter-spacing: 0.02em;
@@ -79,18 +90,25 @@ button{
    }
 
    .button{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     width: 169px;
-    height: 56px;
-    margin-top: 88px;
-    margin-left: 20px;
-    border-radius: 4px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    background-color: #404BBF;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
     align-content: center;
+    cursor: pointer;
 }
+  . button:hover{
+    color: #404BBF;
+  }
+
+    button:focus{
+        color: #404BBF;
+    }
+
 
     .white-bg{
         color: #FFFFFF
@@ -163,11 +181,12 @@ button{
     letter-spacing: 0.02em;
 }
 .our-portfolio-title{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;   
 }
 
@@ -178,12 +197,13 @@ button{
     text-align: center;
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 .project-card-content{
     font-family: Roboto;
     color: #434455;
     font-size: 16px;
-    line-height: 1.11;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -192,10 +212,12 @@ button{
     background-color:#2E2F42;
 }
 .logo-footer{
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
-    line-height: 1.666;
+    line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.54px;
 }
@@ -212,7 +234,7 @@ button{
     font-family: Roboto;
     color: #F4F4FD;
     font-size: 16px;
-    line-height: 1.11;
+    line-height: 1.15;
     text-transform: none;
     letter-spacing: 0.02em;
 }
